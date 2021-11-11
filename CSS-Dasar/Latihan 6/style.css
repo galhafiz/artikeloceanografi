@@ -1,0 +1,41 @@
+.Hello:link {
+	color: green;
+}
+
+.Hello:hover {
+	color: gold;
+	font-family: arial;
+	font-size: 30px;
+}
+
+.Hello:active {
+	font-style: italic;
+}
+
+.Hello:visited {
+	color: black;
+}
+
+li:first-child a {
+	color: hotpink;
+}
+
+li:last-child a {
+	color: coral;
+}
+
+li:nth-child(even) a {
+	color: darkkhaki;
+}
+
+li:nth-child(odd) a:hover {
+	color: gold;
+}
+
+p:first-of-type {
+	color: red;
+}
+
+p:last-of-type {
+	color: rosybrown;
+}

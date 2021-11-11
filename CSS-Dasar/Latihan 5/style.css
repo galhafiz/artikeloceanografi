@@ -1,0 +1,38 @@
+body {
+	  font-family: arial;
+}
+
+h1,h3 {
+	   color: gold;
+}
+
+ul li a {
+		 color: red;
+}
+
+ol li a {
+		 color: green;
+}
+
+#p1 {
+	color: silver;
+}
+
+.p2 {
+	color: coral;
+}
+
+.cetak-tebal {
+				font-weight: bold;
+}
+
+p.cetak-tebal {
+				font-size: 30px;
+}
+
+
+
+, : selector untuk memberikan style yang sama pada 2 elemen html
+spasi : selector untuk membedakan style pada body yg sama
+id(#): selector untuk membedakan style pada tag yang sama
+class(.) : selector untuk membedakan style pada tag yang sama
